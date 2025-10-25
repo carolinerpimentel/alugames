@@ -1,13 +1,14 @@
-/*
- * Ao clicar no botão do jogo, deverá verificar se está alugado, trocar o texto do botão e mudar o visual do    
- * elemento.
-*/
+
 let jogosAlugados;
 
 function exibirJogosAlugados(){
     console.log(`O total de jogos alugados é ${jogosAlugados}`);
 }
 
+/*
+ * Ao clicar no botão do jogo, deverá verificar se está alugado, trocar o texto do botão e mudar o visual dos    
+ * elementos correspondentes.
+*/
 function alterarStatus(id){
     let jogoClicado = document.getElementById(`game-${id}`);
     let botao = jogoClicado.querySelector('.dashboard__item__button');  
