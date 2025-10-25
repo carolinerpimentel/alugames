@@ -1,4 +1,4 @@
-<h1 align="center">🎲 AluGames</h1>
+
 
 <p align="center">
   <img src="img/logo.svg" alt="Logo AluGames" width="200">
