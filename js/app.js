@@ -7,7 +7,6 @@ function alterarStatus(id){
     let jogoClicado = document.getElementById(`game-${id}`);
     let imagem = jogoClicado.querySelector('.dashboard__item__img');
     let botao = jogoClicado.querySelector('.dashboard__item__button');
-    let jogo = jogoClicado.querySelector('.dashboard__item__name');
 
     // Altera o status dos elementos correspondentes ao botão clicado
 
